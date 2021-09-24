@@ -1,5 +1,3 @@
-#https://stackoverflow.com/questions/52935143/how-to-do-a-contour-plot-from-x-y-z-coordinates-in-matplotlib-plt-contourf-or
-
 import pandas as pd
 import numpy as np
 from scipy.interpolate import griddata
@@ -24,7 +22,6 @@ X,Y,Z = plot_contour(x,y,z,resolution = 100,contour_method='linear')
 
 #***--------Ploting Contour--------***--------------------
 
-#https://www.python-course.eu/matplotlib_contour_plot.php
 '''
 with plt.style.context("classic"):
     
@@ -57,5 +54,8 @@ plt.ylim(6, 10)# change the data range for y/Debi/Flow
 plt.show() #
 
 
+#Refrences
+##https://stackoverflow.com/questions/52935143/how-to-do-a-contour-plot-from-x-y-z-coordinates-in-matplotlib-plt-contourf-or
+###https://www.python-course.eu/matplotlib_contour_plot.php
 
 
