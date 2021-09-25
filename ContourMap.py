@@ -49,8 +49,8 @@ plt.scatter(x,y, color="black", linewidth=1, edgecolor="none", s=10) # no scater
 plt.title('Zeta v. Flow and Speed with Channel')# set title for the plot 
 plt.xlabel('$\omega$ (RPM)') # add lable for x
 plt.ylabel('Q (L/s)') # add lable for y
-plt.xlim(20, 80)# change the data range for x/Omega
-plt.ylim(6, 10)# change the data range for y/Debi/Flow
+plt.xlim(20, 80)# change the data range for x
+plt.ylim(6, 10)# change the data range for y
 plt.show() #
 
 
